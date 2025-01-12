@@ -14,6 +14,7 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   // console.log({hello bhau})
+  // jwkef
   return (
     <VerticalTimelineElement
       contentStyle={{
