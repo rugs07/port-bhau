@@ -40,6 +40,7 @@ import redux from './redux.png'
 import community from "./community.png"
 import jar from "./jar.png"
 import enterprise from "./enterprise.png"
+import logo1 from "./logo.jpg"
 
 export {
   logo,
@@ -56,6 +57,7 @@ export {
   webgl,
   web,
   github,
+  logo1,
   mizzle,
   jar4u,
   menu,
