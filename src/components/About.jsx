@@ -47,16 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] w-full leading-[30px]"
       >
-        I am a passionate developer with hands-on experience in creating
-        innovative and secure applications. With a solid foundation in
-        technologies like React, Node.js, and TypeScript, I specialize in
-        designing scalable solutions to solve real-world problems. My
-        professional journey includes leading impactful projects like
-        decentralized platforms and supply chain systems, showcasing my ability
-        to deliver efficient and user-friendly applications. As a BTech CSE
-        student at LNMIIT Jaipur, I am dedicated to
-        continuous learning and contributing to the tech landscape with
-        creativity and precision.
+        I am a passionate and skilled Frontend Developer with expertise in
+        building dynamic, visually stunning, and highly interactive web
+        applications. With a strong proficiency in React, Tailwind, Vanilla JS,
+        Bootstrap, GSAP, Three.js, Framer, and SVG animations, I specialize in
+        creating seamless and engaging user experiences. I have a solid
+        foundation in frontend technologies and enjoy transforming complex ideas
+        into simple, user-friendly interfaces. My approach focuses on
+        performance optimization, responsive design, and delivering creative,
+        intuitive solutions. As I continue to grow in my craft, I strive to stay
+        ahead of industry trends and contribute impactful, high-quality work to
+        the tech ecosystem.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap items-center justify-center md:justify-between gap-10">

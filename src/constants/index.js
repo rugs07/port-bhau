@@ -9,6 +9,9 @@ import {
   css,
   reactjs,
   nextjs,
+  svg,
+  framer,
+  gsap,
   tailwind,
   nodejs,
   mongodb,
@@ -17,12 +20,18 @@ import {
   solidity,
   timechain,
   bharat,
+  webgl,
+  redux,
   oasis,
   octa,
   news,
   ico,
   schain,
   threejs,
+  letsgrow,
+  mizzle,
+  jar4u,
+  community,
 } from "../assets";
 
 export const navLinks = [
@@ -41,7 +50,7 @@ export const navLinks = [
 ];
 
 const services = [
- {
+  {
     title: "Frontend Developer",
     icon: creator,
   },
@@ -53,7 +62,6 @@ const services = [
     title: "AI and XR Web Development",
     icon: backend,
   },
-  
 ];
 
 const technologies = [
@@ -77,31 +85,17 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "nextjs Toolkit",
-    icon: nextjs,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "solidity",
-    icon: solidity,
-  },
-  
+
   {
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "hardhat",
-    icon: hardhat,
-  },
+
   {
     name: "psql",
     icon: psql,
@@ -110,83 +104,90 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  {
+    name: "GSAP",
+    icon: gsap,
+  },
+  {
+    name: "Framer",
+    icon: framer,
+  },
+  {
+    name: "SVG Animations",
+    icon: svg,
+  },
+  {
+    name: "WebGl",
+    icon: webgl,
+  },
+  {
+    name: "Redux",
+    icon: redux,
+  },
 ];
 
 const experiences = [
   {
-    title: "Full Stack Web Development",
-    company_name: "Bharat Intern",
-    icon: bharat,
+    title: "Frontend Developement",
+    company_name: "Mizzle Cloud",
+    icon: mizzle,
     iconBg: "#383E56",
-    date: "Feb 2023 - March 2023",
+    date: "Aug 2024 - Present",
     points: [
-      "Developed and maintained full-stack web applications using React.js, Node.js, and MongoDB.",
-"Collaborated with team members via GitHub for version control and seamless code contributions.",
-"Deployed and optimized applications on Vercel for improved accessibility and performance.",
-"Implemented responsive design and ensured cross-browser compatibility for an enhanced user experience.",   ],
+      "Developed 200+ responsive web pages with SVG animations using React, Bootstrap, Tailwind CSS, Apache Echarts, GSAP...",
+      "Integrated over 250 APIs coordinating with Rust backend and Python backend team into web applications to enable robust functionality and connectivity.",
+      "Contributed to four major projects, including Community Portal, Enterprise Portal, Mizzle’s website, and admin portal, ensuring quality development and seamless integration.",
+      "Implemented Web3 and blockchain technologies to develop decentralized applications and enhance platform capabilities.",
+    ],
   },
   {
-    title: "Web Developer Intern",
-    company_name: "Oasis Infobyte",
-    icon: oasis,
+    title: "AI and Frontend XR Developer",
+    company_name: "Jar4U",
+    icon: jar4u,
     iconBg: "#E6DEDD",
-    date: "May 2023 - June 2023",
+    date: "Feb 2024 - Aug 2024",
     points: [
-      "Designed and developed web applications using React.js, Express.js, and MySQL.",
-"Leveraged GitHub for version control, collaborating effectively with the development team.",
-"Enhanced application functionality and performance through efficient back-end integration and debugging.",
-"Ensured responsiveness and optimized user interfaces for seamless user interaction across devices.",
+      "Led the development of a 3D try-on product for Jar4U using ReactJS, WebGL, and AWS, enabling realistic VR/AR functionalities.",
+      "Achieved a 25% increase in user satisfaction by implementing immersive try-on experiences.",
+      "Developed a SaaS platform with TypeScript, Stripe API, and Prisma, streamlining the payment process.",
+      "Implemented video-to-3D model conversion, boosting efficiency by 40% through advanced technologies.",
     ],
   },
   {
     title: "Frontend Developer Intern",
-    company_name: "Octanet Solutions",
-    icon: octa,
+    company_name: "Let's Grow More",
+    icon: letsgrow,
     iconBg: "#383E56",
-    date: "June 2022 - Sep 2023",
+    date: "Oct 2023 - Jan 2024",
     points: [
-      "Built and maintained responsive user interfaces using React.js, HTML, and TailwindCSS.",
-"Translated design mockups from figma into interactive, user-friendly web pages.",
-"Collaborated with designers and developers to ensure seamless UI/UX consistency.",
-"Optimized web performance by implementing best practices for front-end development.",
-    ],
-  },
-  {
-    title: "Blockchain Developer Intern",
-    company_name: "Timechain Labs",
-    icon: timechain,
-    iconBg: "#E6DEDD",
-    date: "June 2023 - Nov 2023",
-    points: [
-      "Developed and deployed decentralized applications leveraging BSV blockchain and Nucron Wallet for secure payment integrations.",
-      "Built and maintained full-stack applications using TypeScript, NestJS, and PostgreSQL to enable robust and scalable solutions.",
-      "Managed project workflows and progress using JIRA and coordinated with the team for timely delivery of tasks.",
-      "Represented the company as a Campus Ambassador, promoting its initiatives and strengthening its presence among students and professionals.",
+      "Crafted a user-centric frontend web application for content creation using React, Tailwind, and Firebase.",
+      "Delivered 100% fully functional code on time in a fast-paced work environment, exceeding expectations.",
+      "Optimized frontend performance through efficient coding practices and performance tuning, improving loading times and user experience by 40%.",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "News Portal",
+    name: "Community Portal",
     description:
-      "Developed a full-stack decentralized news portal on the BSV blockchain with smart contract-driven wallet and subscription management, leveraging SvelteKit, TypeScript, PostgreSQL, and Nucron Wallet, and deployed on Vercel for secure and seamless user experience.",
+      "Developed a full-stack decentralized platform with NFT staking, DAO governance, blockchain voting, and a rewards marketplace, leveraging React, TailwindCSS, smart contract APIs, and backend APIs, deployed for a secure and seamless user experience.",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "TypeScript",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "PostgreSQL",
+        name: "Smart Contract API's",
         color: "pink-text-gradient",
       },
     ],
-    image: news,
-    source_code_link: "https://github.com/BhavsarShubham/news-factory",
+    image: community,
+    source_code_link: "https://communityportal.mizzle.io/",
   },
   {
     name: "ICO Market Place",
@@ -228,7 +229,8 @@ const projects = [
       },
     ],
     image: schain,
-    source_code_link: "https://github.com/BhavsarShubham/SHUBHAM_supply_chain_manage",
+    source_code_link:
+      "https://github.com/BhavsarShubham/SHUBHAM_supply_chain_manage",
   },
 ];
 

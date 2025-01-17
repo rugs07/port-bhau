@@ -29,14 +29,31 @@ import octa from "./company/octa.jpg"
 import news from "./news.png";
 import ico from "./ico.png";
 import schain from "./schain.png";
+import mizzle from "./mizzlecloud_logo.jpg"
+import jar4u from "./jar4u.png"
+import letsgrow from "./letsgrow.jpg"
+import gsap from './gsap.png'
+import framer from './framer.png'
+import svg from './svg.png'
+import webgl from './webgl.png'
+import redux from './redux.png'
+import community from "./community.png"
 
 export {
   logo,
   backend,
+  community,
   creator,
   mobile,
+  gsap,
+  framer,
+  svg,
+  redux,
+  webgl,
   web,
   github,
+  mizzle,
+  jar4u,
   menu,
   close,
   css,
@@ -51,6 +68,7 @@ export {
   nextjs,
   tailwind,
   typescript,
+  letsgrow,
   threejs,
   timechain,
   bharat,
