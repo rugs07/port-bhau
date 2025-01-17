@@ -38,11 +38,15 @@ import svg from './svg.png'
 import webgl from './webgl.png'
 import redux from './redux.png'
 import community from "./community.png"
+import jar from "./jar.png"
+import enterprise from "./enterprise.png"
 
 export {
   logo,
+  enterprise,
   backend,
   community,
+  jar,
   creator,
   mobile,
   gsap,
