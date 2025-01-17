@@ -29,7 +29,7 @@ import octa from "./company/octa.jpg"
 import news from "./news.png";
 import ico from "./ico.png";
 import schain from "./schain.png";
-import mizzle from "./mizzlecloud_logo.jpg"
+import mizzle from "./mizzlecloud_logo.jpg";
 import jar4u from "./jar4u.png"
 import letsgrow from "./letsgrow.jpg"
 import gsap from './gsap.png'
@@ -38,8 +38,8 @@ import svg from './svg.png'
 import webgl from './webgl.png'
 import redux from './redux.png'
 import community from "./community.png"
-import jarImage from "./jar.png"
-import enterprise from "./enterprise.png"
+import jarImage from "./jar.jpg"
+import enterprise from "./enterprise.jpg"
 import logo1 from "./logo.jpg"
 
 export {
