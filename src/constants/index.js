@@ -8,7 +8,7 @@ import {
   html,
   css,
   reactjs,
-  jar,
+  jarImage,
   nextjs,
   svg,
   framer,
@@ -213,7 +213,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: jar,
+    image: jarImage,
     source_code_link: "https://jar4u.com/",
   },
   {
