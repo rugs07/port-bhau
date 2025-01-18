@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import twitter from "/src/assets/twitter.png"
+import linkedin from "/src/assets/linkedin.png"
 
 const Contact = () => {
   const formRef = useRef();
@@ -142,7 +144,7 @@ const Contact = () => {
             className="flex items-center gap-2 text-white hover:text-blue-500"
           >
             <img
-              src="/src/assets/twitter.png"
+              src={twitter}
               alt="Twitter Logo"
               className="w-6 h-6"
             />
@@ -156,7 +158,7 @@ const Contact = () => {
             className="flex items-center gap-2 text-white hover:text-blue-700"
           >
             <img
-              src="/src/assets/linkedin.png"
+              src={linkedin}
               alt="LinkedIn Logo"
               className="w-6 h-6"
             />
