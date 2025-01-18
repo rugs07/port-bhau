@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import twitter from "/src/assets/twitter.png"
 import linkedin from "/src/assets/linkedin.png"
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,6 +34,14 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    if (!form.name || !form.email || !form.message) {
+        setLoading(false);
+        toast.error("Please fill in all fields."); 
+        return;
+    }
+
+    toast.loading("Sending..."); 
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -49,8 +58,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          toast.success("Thank you. I will get back to you as soon as possible.");
           setForm({
             name: "",
             email: "",
@@ -60,12 +68,12 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error("Ahh, something went wrong. Please try again.");
         }
       );
-  };
+};
 
+  
   return (
     <div
       className={`xl:mt-10 flex flex-col gap-10 overflow-hidden items-center justify-center`}
