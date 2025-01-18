@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./css.jpg";
+import css from "./css.png";
 import solidity from "./tech/solidity.png";
 import psql from "./tech/psql.png";
 import hardhat from "./tech/hardhat.png";

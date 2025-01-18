@@ -226,7 +226,7 @@
 }
 
 .simple-design {
-  background: linear-gradient(135deg, #262626, #9b9b9b);
+  background: linear-gradient(135deg, #000000, #686868);
   border: none;
   color: #555;
   display: flex;
@@ -236,8 +236,8 @@
 }
 
 .icon-wrapper img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 10px;
   object-fit: contain;
 }
@@ -246,6 +246,6 @@
   font-size: 1rem;
   font-weight: 600;
   margin-top: 10px;
-  color: black;
+  color: rgb(231, 231, 231);
 }
 
