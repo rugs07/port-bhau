@@ -249,3 +249,9 @@
   color: rgb(231, 231, 231);
 }
 
+@media (max-width: 768px) {
+  .technology-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
