@@ -19,7 +19,7 @@ import reactjs from "./reactjs.png";
 import nextjs from "./tech/nextjs.png";
 import tailwind from "./tailwind.png";
 import typescript from "./typescript.png";
-import threejs from "./threejs.svg";
+import threejs from "./threejs.png";
 
 import timechain from "./company/timechain.jpg"
 import bharat from "./company/bharat.jpg"

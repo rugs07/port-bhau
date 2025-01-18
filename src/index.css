@@ -226,7 +226,7 @@
 }
 
 .simple-design {
-  background: linear-gradient(135deg, #000000, #686868);
+  background: linear-gradient(135deg, #000000, #3d3d3d);
   border: none;
   color: #555;
   display: flex;
