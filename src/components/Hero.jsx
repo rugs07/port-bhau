@@ -19,9 +19,9 @@ const Hero = () => {
               className='text-[#4c4cff]'>Rugwed</span>
             </h3>
         <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop Website <span
-              className='text-[#fffc4c]'>Interfaces</span>  <br className=' sm:block hidden'/>
-          using MERN
+        Crafting Stunning<span
+              className='text-[#fffc4c]'> Interfaces</span>  <br className=' sm:block hidden'/>
+          using React and Tailwind
         </p>
         </div>
       </div>
